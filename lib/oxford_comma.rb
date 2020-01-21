@@ -6,7 +6,7 @@ def oxford_comma(array)
     elsif(idx != -1)
       newStr += "#{ele}, "
     else 
-      newStr += "and #{ele}" "  
+      newStr += "and #{ele}"  
     end 
   return newStr 
 end
