@@ -2,11 +2,11 @@ def oxford_comma(array)
   newStr = "" 
   array.each_with_idx |ele, idx| 
   if(idx == 0)
-    newStr += ele + ", "
+    newStr += "#{ele}, "
   elsif (idx != -1)
-    newStr += ele + ", "
+    newStr += "#{ele}, "
   else 
-    newStr += "and " + ele  
+    newStr += "and #{ele}" "  
   end 
   return newStr 
 end
