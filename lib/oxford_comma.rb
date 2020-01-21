@@ -3,7 +3,7 @@ def oxford_comma(array)
     return array.join()
   end 
   if(array.length == 2)
-    return array.join(", ")
+    return array.join(" and ")
   end 
   newStr = "" 
   array.each_with_index do |ele, idx| 
