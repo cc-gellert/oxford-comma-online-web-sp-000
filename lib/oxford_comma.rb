@@ -1,6 +1,6 @@
 def oxford_comma(array)
   newStr = "" 
-  array.each_with_idx do |ele, idx| 
+  array.each_with_index do |ele, idx| 
     if(idx == 0)
       newStr += "#{ele}, "
     elsif(idx != -1)
