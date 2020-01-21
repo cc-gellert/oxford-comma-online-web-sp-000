@@ -1,3 +1,12 @@
 def oxford_comma(array)
-  array.join(", ")
+  newStr = "" 
+  array.each_with_idx |ele, idx| 
+  if(idx == 0)
+    newStr += ele + ", "
+  elsif (idx != -1)
+    newStr += ele + ", "
+  else 
+    newStr += "and " + ele  
+  end 
+  return newStr 
 end
